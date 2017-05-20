@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 1px dotted red;
+}
+
+body {
+    background-color: #265175;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header>img {
+    width: 400px;
+}
+
+#searcharea {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+div#searchform {
+    background-color: #444444;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+#searcharea p {
+    font-size: 12px;
+}
+
+
+input[value="Search"] {
+    text-align: center;
+    color: silver;
+    margin: 10px 5px 10px 30px;
+    height: 20px;
+} ​
