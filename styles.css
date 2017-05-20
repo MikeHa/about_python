@@ -6,7 +6,7 @@
 
 body {
     background-color: #265175;
-    width: 80%;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -29,8 +29,140 @@ div#searchform {
 
 #searcharea p {
     font-size: 12px;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
 }
 
+#searcharea a {
+    color: #eac647;
+}
+
+nav ul {
+    background-color: #467dab;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+#toc ul {
+    text-align: center;
+    display: inline-block;
+    line-height: 25px;
+    color: white;
+    list-style: none;
+}
+
+#gobutton {
+    background-color: #265175;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.arrows {
+    font-size: 8px;
+    margin-bottom: 2px;
+    vertical-align: top;
+    color: #eac647;
+}
+
+#toc, #content {
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+#content {
+    width: 580px;
+    margin: 10px 30px;
+    text-align: center;
+    color: white;
+    font-size: 70%;
+    margin
+}
+
+#content h3{
+    line-height: 20px;
+    color: #eac647;
+    font-weight: 100;
+}
+
+#content h4 {
+    font-weight: 100;
+}
+
+#links {
+    background-color: white;
+    text-align: center;
+    height: 180px;
+    line-height: 15px;
+}
+
+.links-section {
+    width: 325px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.links-section p {
+    font-size: 12px;
+}
+
+.links-section ul {
+    font-size: 12px;
+    list-style-position: inside;
+}
+
+.top-align {
+    vertical-align: top;
+}
+
+.border {
+    border-top: 2px solid #75a8d3;
+    width: 300px;
+    padding-bottom: 10px;
+    position: relative;
+    margin-left: 10px;
+
+}
+
+footer {
+    height: 80px;
+    margin-top: 20px;
+    background: linear-gradient (#275377, #3674a8);
+}
+
+footer h2:first-child {
+    margin-left: 150px;
+}
+
+footer h2 {
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+footer h2 a {
+    text-decoration: none;
+    color: #7cafda;
+    font-family: Arial;
+    font-weight: 100;
+}
+
+footer p {
+    text-align: center;
+    font-size: 8px;
+    color: #7cafda;
+    padding-top: 5px;
+}
 
 input[value="Search"] {
     text-align: center;
